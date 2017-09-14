@@ -4,7 +4,7 @@ var productObject = [
         'id': 1,
         'product-name': 'Bike',
         'color': 'red',
-        'price': 5200
+        'price': 5800
     },
 
     {
@@ -24,21 +24,21 @@ var productObject = [
 
 
 // bike price
-var outputPriceBike = document.getElementsByClassName('1');
-for (var index = 0; index < outputPriceBike.length; index++) {
-    outputPriceBike[index].innerHTML = (productObject[0].price)
+var outputPrice1 = document.getElementsByClassName('1');
+for (var index = 0; index < outputPrice1.length; index++) {
+    outputPrice1[index].innerHTML = (productObject[0].price)
 }
 
 // ball price
-var outputPriceBall = document.getElementsByClassName('2');
-for (var index = 0; index < outputPriceBall.length; index++) {
-    outputPriceBall[index].innerHTML = (productObject[1].price)
+var outputPrice2 = document.getElementsByClassName('2');
+for (var index = 0; index < outputPrice2.length; index++) {
+    outputPrice2[index].innerHTML = (productObject[1].price)
 }
 
 // boots price
-var outputPriceBoots = document.getElementsByClassName('3');
-for (var index = 0; index < outputPriceBoots.length; index++) {
-    outputPriceBoots[index].innerHTML = (productObject[2].price)
+var outputPrice3= document.getElementsByClassName('3');
+for (var index = 0; index < outputPrice3.length; index++) {
+    outputPrice3[index].innerHTML = (productObject[2].price)
 }
 
 
