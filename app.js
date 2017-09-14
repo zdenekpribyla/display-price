@@ -23,27 +23,29 @@ var productObject = [
 ];
 
 
-// bike price
+// id 1 price
 var outputPrice1 = document.getElementsByClassName('1');
-for (var index = 0; index < outputPrice1.length; index++) {
+for (var index = 0; index < productObject.length; index++) {
     outputPrice1[index].innerHTML = (productObject[0].price)
 }
 
-// ball price
+// id 2 price
 var outputPrice2 = document.getElementsByClassName('2');
-for (var index = 0; index < outputPrice2.length; index++) {
+for (var index = 0; index < productObject.length; index++) {
     outputPrice2[index].innerHTML = (productObject[1].price)
 }
 
-// boots price
-var outputPrice3= document.getElementsByClassName('3');
-for (var index = 0; index < outputPrice3.length; index++) {
+// id 3 price
+var outputPrice3 = document.getElementsByClassName('3');
+for (var index = 0; index < productObject.length; index++) {
     outputPrice3[index].innerHTML = (productObject[2].price)
 }
 
-
-
-
-
+// var myFunction = function () {
+//     for (var index = 0; index < productObject.length; index++)
+//     { outputPrice1[index].style.color = 'yellow' }
+//     console.log('yellow')
+// };
+// myFunction()
 
 
