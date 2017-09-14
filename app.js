@@ -3,13 +3,14 @@
 
 for (var index = 0; index < products.length; index++) {
 
-    var product = products[index];
+    var productID = products[index].id
+    var productPrice = products[index].price
 
-    var productElements = document.getElementsByClassName(product.id);
-    console.log('productElements', productElements);
+    var productElements = document.getElementsByClassName(productID);
+     console.log('productElements', productElements);
 
     for (var i = 0; i < productElements.length; i++) {
-        productElements[i].innerHTML = product.price;
+        productElements[i].innerHTML = productPrice;
     }
 
 }
