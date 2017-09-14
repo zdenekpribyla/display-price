@@ -23,39 +23,27 @@ var productObject = [
 ];
 
 
-var outputPriceBikeElement = document.getElementsByClassName('price-bike');
-var outputPriceBallElement = document.getElementsByClassName('price-ball');
-var outputPriceBootsElement = document.getElementsByClassName('price-boots');
+// bike price
+var outputPriceBike = document.getElementsByClassName('1');
+for (var index = 0; index < outputPriceBike.length; index++) {
+    outputPriceBike[index].innerHTML = (productObject[0].price)
+}
 
-//where to output product price
+// ball price
+var outputPriceBall = document.getElementsByClassName('2');
+for (var index = 0; index < outputPriceBall.length; index++) {
+    outputPriceBall[index].innerHTML = (productObject[1].price)
+}
 
- var whereOutputPrice = function () {
-    console.log(('whereOutputPrice'));
-    return {
-        pro1: Number(outputPriceBikeElement),
-        pro2: Number(outputPriceBallElement),
-        pro3: Nummber(outputPriceBootsElement)
-     };
-     console.log(('vypise hodnoty'))
-
-
- };
+// boots price
+var outputPriceBoots = document.getElementsByClassName('3');
+for (var index = 0; index < outputPriceBoots.length; index++) {
+    outputPriceBoots[index].innerHTML = (productObject[2].price)
+}
 
 
 
-// // bike price
-// for (var index = 0; index < outputPriceBikeElement.length; index++) {
-//     outputPriceBikeElement[index].innerHTML = (priceBike)
-// }
-//
-// // ball price
-// for (var index = 0; index < outputPriceBallElement.length; index++) {
-//     outputPriceBallElement[index].innerHTML = (priceBall)
-// }
-//
-// // boots price
-// for (var index = 0; index < outputPriceBootsElement.length; index++) {
-//     outputPriceBootsElement[index].innerHTML = (priceBoots)
-// }
+
+
 
 
